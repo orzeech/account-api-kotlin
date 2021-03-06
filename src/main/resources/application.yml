@@ -1,0 +1,11 @@
+api:
+  baseUrl: http://api.nbp.pl/api/exchangerates/rates/A
+server:
+  port: 9561
+spring:
+  profiles:
+    active: map
+  security:
+    user:
+      name: admin
+      password: 123
